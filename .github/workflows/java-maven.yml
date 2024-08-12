@@ -16,6 +16,9 @@ on:
 
   workflow_dispatch:
 
+env:
+  MY_PASSWORD: qwerty12345
+
 jobs:
   build:
 
